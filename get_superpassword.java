@@ -14,6 +14,8 @@ public class get_superpassword {
                     stringBuilder.append((char) (Integer.parseInt(s) - 4));
                 }else if ((Integer.parseInt(s) >=65 && Integer.parseInt(s)<=68 )||(Integer.parseInt(s) >=97 && Integer.parseInt(s)<=100)){
                     stringBuilder.append((char) (Integer.parseInt(s) + 22));
+                }else{
+                    stringBuilder.append((char) (Integer.parseInt(s) ));
                 }
             }
             map.put(entry.getKey(), stringBuilder.toString());
