@@ -1,6 +1,5 @@
 public class get_superpassword {
     public static void main(String[] args) {
-        //`telnet 192.168.1.1`，并使用账号`root`和密码`abcd`
         Map<String, String> map = new HashMap<>();
         //  获取信息的方式 http://192.168.1.1:8080/cgi-bin/baseinfoSet.cgi
         // fixme,下面两行把从路由器拿到的信息放在这里
